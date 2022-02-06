@@ -72,7 +72,7 @@ Need to narrow it down further? (y/N) N
 ![Wordle Archive game #221 example](https://raw.githubusercontent.com/codynhanpham/wordle-solver/main/demo.png)
 
 ## Footnote and Credits
-The original dictionary the collection of 479k English words compiled by ***dwyl*** at [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words)
+The original dictionary is a collection of 479k English words compiled by ***dwyl*** at [https://github.com/dwyl/english-words](https://github.com/dwyl/english-words)
 
 The original dictionary is then filtered to a total of 16265 five-character words for use with Wordle-Solver.
 
