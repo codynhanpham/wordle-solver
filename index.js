@@ -1,6 +1,6 @@
 const readline = require('readline');
 
-const dictionary = require('./dictionary.json');
+const dictionary = require('./dictionary-ranked.json');
 const charList = Object.values(dictionary);
 
 
