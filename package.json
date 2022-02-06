@@ -1,0 +1,21 @@
+{
+  "name": "wordle-solver",
+  "version": "1.0.0",
+  "description": "Just an app that solves Wordle problems...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordle",
+    "riddle",
+    "solver",
+    "english"
+  ],
+  "author": "Cody Nhan Pham",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.0"
+  }
+}

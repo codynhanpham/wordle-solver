@@ -74,3 +74,9 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# 5-letter words Dictionary dev
+5letter_dictionary_list.json
+
+# Word ranking by frequency
+en_words_1_1-64.txt
