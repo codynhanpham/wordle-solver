@@ -66,3 +66,4 @@ Here are a list of possible words:
 [ 'whack' ]
 Need to narrow it down further? (y/N) N
 ```
+![Wordle Archive game #221 example](https://raw.githubusercontent.com/codynhanpham/wordle-solver/main/demo.png)
