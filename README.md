@@ -24,8 +24,11 @@ The first word in any Wordle game is just a medium to gather information about t
 The program will the give you a list of candidate words. The best way to get the most information out of the second guess is to chose a five-letter word that has more vowels and does not contain any duplicate letters! 
 
 The program will also ask you whether you want to further narrow the range down:
-`Need to narrow it down further? (y/N) `
+
+```Need to narrow it down further? (y/N) ```
+
 Simply type `y` or `yes` to repeat the whole process again! You only need to input new information about the word. Just wanna save you some time ~
+
 If you got the correct word, type `N`, `no` or simply just hit enter to stop and close the program.
 
 ## Example game
