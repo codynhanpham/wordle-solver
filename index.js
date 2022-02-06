@@ -121,6 +121,10 @@ function newQuery(oldwrongLetterInput, oldwrongPositionInput, oldcorrectPosition
                         if (yesNo.toLowerCase() == 'yes' || yesNo.toLowerCase() == 'y') {
                             console.log('\nSo now let\'s do it all again!\nYou just have to add new information!\n');
                             newQuery(wrongLetterInput, wrongPositionInput, correctPositionInput);
+                        }
+                        else {
+                            console.log('Nice!');
+                            rl.close();
                         };
                     }
                     else {
