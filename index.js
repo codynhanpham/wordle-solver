@@ -112,7 +112,7 @@ function newQuery(oldwrongLetterInput, oldwrongPositionInput, oldcorrectPosition
                 for (let i=0; i<filteredPosition.length; i++) {
                     answers.push(getKeyByValue(dictionary,filteredPosition[i]));
                 };
-                console.log('Here are a list of possible words:');
+                console.log('Here is a list of possible words:');
                 console.log(answers);
     
                 // If not finished --> input again, only have to input new information
