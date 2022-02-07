@@ -72,10 +72,12 @@ Need to narrow it down further? (y/N) y
 You can see the program provides you a huge list of possible words, as well as a suggestion. You can just use the suggested word, or just pick something else.
 
 *Notice there are some words that contain special characters! Those are just happen to be "words" in the dictionary and I left them their just in case anyone need it. You can always exclude them when inputting the gray (wrong) letters the first time:*
-```What are the wrong letters? (Input as a,b,c,d,...) ',-,.```
+```
+What are the wrong letters? (Input as a,b,c,d,...) ',-,.
+```
 
 
-Next, I choose the word **BASON** as my next guess in this example.
+Next, I choose the word `BASON` as my next guess in this example.
 ```
 So now let's do it all again!
 You just have to add new information!
@@ -108,7 +110,7 @@ Suggested word for next guess:   [ 'quack' ]
 Need to narrow it down further? (y/N) y
 ```
 
-Just repeat the whole thing again. I choose the suggested word **QUACK** this time.
+Just repeat the whole thing again. I choose the suggested word `QUACK` this time.
 ```
 So now let's do it all again!
 You just have to add new information!
@@ -125,7 +127,7 @@ Suggested word for next guess:   [ 'whack' ]
 Need to narrow it down further? (y/N) N
 ```
 
-I just follow the suggested word **WHACK** and boom, that's the correct answer.
+I just follow the suggested word `WHACK` and boom, that's the correct answer.
 
 Below is a screenshot of the game if you need references.
 
@@ -139,6 +141,8 @@ The original dictionary is then filtered to a total of 16265 five-character word
 Using the [Frequency Lists of the Most Common Words in Project Gutenberg as of 2006-04-16](https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists#:~:text=of%20The%20Simpsons-,Project%20Gutenberg,-%5Bedit%5D), 4029 most common 5-character words are ranked in the [dictionary-ranked.json](https://github.com/codynhanpham/wordle-solver/blob/main/dictionary-ranked.json). Assuming Wordle puzzles are designed for the common public, this way of ranking assures the correct word appears higher in the result list.
 
 There are some words contain special characters such as `'` or `-`. I didn't want to exclude them completely from the dictionary just in case, but you can always add them as a filter parameter when inputting
-```What are the wrong letters? (Input as a,b,c,d,...) ```
+```
+What are the wrong letters? (Input as a,b,c,d,...) 
+```
 
 There is no guarantee that this dictionary contains every 5-character word! If you find a word that this dictionary does not cover, just open a new issue with such word and I will add it as soon as I can.
