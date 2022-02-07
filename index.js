@@ -42,14 +42,11 @@ function wrongPositionFilter(arrayOfArguments, arrayToFilterFrom) {
                 // arr[1] is the position, so arr[1]-1 to get index!
                 if (!word.includes(arr[0])) return false;
                 if (word.indexOf(arr[0]) == (arr[1]-1)) {
-                    let repeatLetterPOS = [];
                     for (let j=arr[1]-1; j<5; j++) {
                         if (word.indexOf(arr[0], j) == (arr[1]-1)) {
-                            repeatLetterPOS.push(j);
+                            return false;
                         };
                     };
-                    if (repeatLetterPOS.length == 1) return false
-                    else if (repeatLetterPOS.includes(arr[1]-1)) return false;
                 };
             };
             return true;
@@ -111,7 +108,7 @@ function hasSpecialChar(letterArray) {
 
 function suggestWord(answerMatrix,guessCount) {
     // return first one in list
-    if (guessCount >= 3 || answerMatrix.length <=5) {
+    if (guessCount >= 3 || answerMatrix.length <=10) {
         for (let i=0; i<answerMatrix.length; i++) { // go thru word
             if (!hasSpecialChar(answerMatrix[i])) return answerMatrix[i]
         };
@@ -119,6 +116,10 @@ function suggestWord(answerMatrix,guessCount) {
     // return the first one with out any duplicate letter
     for (let i=0; i<answerMatrix.length; i++) {
         if (!hasDupLetter(answerMatrix[i]) && !hasSpecialChar(answerMatrix[i])) return answerMatrix[i];
+    };
+    // if previous one return undefined, pick the first word without any spechial character
+    for (let i=0; i<answerMatrix.length; i++) {
+        if (!hasSpecialChar(answerMatrix[i])) return answerMatrix[i];
     };
 };
 
