@@ -2,10 +2,10 @@
 An simple app that helps solving Wordle problems
 
 ## How to Use
-*Currently the app requires a NodeJS environment, just because I wrote and tested it in NodeJS and didn't have time to make any nice looking GUI. So CLI it is! I'll try to make a browser interface later. For easy access, I also release some standalone executable files for Windows, macOS, and Linux, in case you don't what to bother with installing NodeJS and all that jazz.*
+*Currently the app requires a NodeJS environment, just because I wrote and tested it in NodeJS and didn't have time to make any nice looking GUI. So CLI it is! I'll try to make a browser interface later. For easy access, I also bundled some standalone executable files for Windows, macOS, and Linux, in case you don't what to bother with installing NodeJS and all that jazz.*
 
 ### Run a standalone executable file from the latest release
-The easy and straight forward way to get the code up and running on your device is go to the [release page](https://github.com/codynhanpham/wordle-solver/releases) and download the appropriate executable file for your operating system.
+The easy and straight forward way to get the code up and running on your device is go to the [releases page](https://github.com/codynhanpham/wordle-solver/releases), find the latest release, and download the appropriate executable file for your operating system.
 
 There is a small chance that you will receive a warning from Windows when try to open the `wordle-solver-cli-win.exe`. That's totally fine and you can just click on Run Anyway to start the program. Windows requires any `.exe` file to have a digital code certificate to be considered "safe," however, this is a project I make for fun and the certificate cost $150+ per year, so no, I won't do it.
 
