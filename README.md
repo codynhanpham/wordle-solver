@@ -2,9 +2,17 @@
 An simple app that helps solving Wordle problems
 
 ## How to Use
-*Currently the app requires a NodeJS environment, just because I wrote and tested it in Node and didn't have time to make any nice looking GUI. So CLI it is! I'll try to make a browser interface later.*
+*Currently the app requires a NodeJS environment, just because I wrote and tested it in NodeJS and didn't have time to make any nice looking GUI. So CLI it is! I'll try to make a browser interface later. For easy access, I also release some standalone executable files for Windows, macOS, and Linux, in case you don't what to bother with installing NodeJS and all that jazz.*
 
-- You will need to have NodeJS installed on your device (for now). Just go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download NodeJS for your OS if you haven't already.
+### Run a standalone executable file from the latest release
+The easy and straight forward way to get the code up and running on your device is go to the [release page](https://github.com/codynhanpham/wordle-solver/releases) and download the appropriate executable file for your operating system.
+
+There is a small chance that you will receive a warning from Windows when try to open the `wordle-solver-cli-win.exe`. That's totally fine and you can just click on Run Anyway to start the program. Windows requires any `.exe` file to have a digital code certificate to be considered "safe," however, this is a project I make for fun and the certificate cost $150+ per year, so no, I won't do it.
+
+### Run the source code directly in a NodeJS environment
+The intended way for the app to run is with NodeJS.
+
+- You will need to have NodeJS installed on your device. Just go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download NodeJS for your OS if you haven't already.
 - Download this repo to your device.
 - Open the Terminal/Command Prompt/Windows Terminal and `cd` into the repo directory. If you are on Windows, Shift+Right-click in the folder will show the option to Open in Windows Terminal.
 - Type `node index.js` to start the program.
@@ -13,7 +21,12 @@ Alternatively, you can also double-click either the `run.bat` file to start the 
 
 If you have Git Bash installed on your device, double-click the `run.sh` file to run the script with the Git Bash terminal.
 
-The first word in any Wordle game is just a medium to gather information about the correct word. Some good starter words may include RADIO, RAISE, ARISE, etc. Afterwards, the app will use the game's feedbacks to helps narrow down the correct word.
+### On a webpage with a nice looking and user friendly UI, which can be easily accessed from any device without any expensive certificate on either end.
+*Trust me, coming soon™.*
+
+---
+
+>The first word in any Wordle game is just a medium to gather information about the correct word. Some good starter words may include RADIO, CRANE, RAISE, ARISE, etc. Afterwards, the app will use the game's feedbacks to helps narrow down the correct word.
 
 ## Syntax
 ***If there is nothing to input for any of these fields, just hit enter to go to the next.***
