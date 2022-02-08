@@ -46,7 +46,7 @@ Simply type `y` or `yes` to repeat the whole process again! You only need to inp
 
 If you got the correct word, type `n`, `no` or simply just hit enter to stop and close the program.
 
-***Note:****The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credits](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
+***Note:*** *The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credits](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
 
 ## Example Game
 Let use the Wordle Archive game #221 [here](https://www.devangthakkar.com/wordle_archive/?221) as an example!
