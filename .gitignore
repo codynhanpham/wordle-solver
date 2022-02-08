@@ -87,3 +87,6 @@ sort.js
 wordle-solver-linux
 wordle-solver-macos
 wordle-solver-win.exe
+wordle-solver-cli-linux
+wordle-solver-cli-macos
+wordle-solver-cli-win.exe
