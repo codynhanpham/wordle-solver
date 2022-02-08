@@ -182,11 +182,21 @@ function newQuery(oldwrongLetterInput, oldwrongPositionInput, oldcorrectPosition
                             guessCount++;
                             newQuery(wrongLetterInput, wrongPositionInput, correctPositionInput, guessCount);
                         }
+                        else if (yesNo == '?') {
+                            oldwrongLetterInput = '';
+                            oldwrongPositionInput = '';
+                            oldcorrectPositionInput = '';
+                            guessCount = 1;
+                            console.clear();
+                            console.log('\n\t\tHere we go again, let\'s solve some Wordle problems!\n');
+                            newQuery('','','',guessCount);
+                        }
                         else {
                             console.log('Nice!');
                             rl.close();
                         };
                     }
+                    
                     else {
                         console.log('Nice!');
                         rl.close();
