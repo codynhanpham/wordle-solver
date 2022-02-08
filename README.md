@@ -21,7 +21,7 @@ Alternatively, you can also double-click either the `run.bat` file to start the 
 
 If you have Git Bash installed on your device, double-click the `run.sh` file to run the script with the Git Bash terminal.
 
-### On a webpage with a nice looking and user friendly UI, which can be easily accessed from any device without any expensive certificate on either end.
+### Run on a webpage with a nice looking, interactive, and user friendly UI, which can be easily accessed from any device without any expensive certificate on either end.
 *Trust me, coming soon™.*
 
 ---
