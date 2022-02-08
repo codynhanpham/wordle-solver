@@ -6,10 +6,12 @@ An simple app that helps solving Wordle problems
 
 - You will need to have NodeJS installed on your device (for now). Just go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download NodeJS for your OS if you haven't already.
 - Download this repo to your device.
-- Open the terminal/command prompt and cd into the repo directory. If you are on Windows, Shift+Right-click in the folder will show the option to Open in Windows Terminal.
+- Open the Terminal/Command Prompt/Windows Terminal and `cd` into the repo directory. If you are on Windows, Shift+Right-click in the folder will show the option to Open in Windows Terminal.
 - Type `node index.js` to start the program.
 
-Alternatively, if you also have Git Bash installed on your device, just double-click the `run.sh` file to run with the Git Bash terminal.
+Alternatively, you can also double-click either the `run.bat` file to start the program with the Windows Terminal automatically if you are on Windows, or the `run.sh` if you are on Mac and Linux.
+
+If you have Git Bash installed on your device, double-click the `run.sh` file to run the script with the Git Bash terminal.
 
 The first word in any Wordle game is just a medium to gather information about the correct word. Some good starter words may include RADIO, RAISE, ARISE, etc. Afterwards, the app will use the game's feedbacks to helps narrow down the correct word.
 
@@ -33,7 +35,7 @@ If you got the correct word, type `n`, `no` or simply just hit enter to stop and
 
 ***Note:****The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credits](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
 
-## Example game
+## Example Game
 Let use the Wordle Archive game #221 [here](https://www.devangthakkar.com/wordle_archive/?221) as an example!
 
 My starter word is `ALERT`, then I just have to plug the output of the game into the app like so:
