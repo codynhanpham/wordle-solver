@@ -14,16 +14,16 @@ Alternatively, if you also have Git Bash installed on your device, just double-c
 The first word in any Wordle game is just a medium to gather information about the correct word. Some good starter words may include RADIO, RAISE, ARISE, etc. Afterwards, the app will use the game's feedbacks to helps narrow down the correct word.
 
 ## Syntax
-***If there is nothing to input for any of these field, hit enter to go to the next.***
+***If there is nothing to input for any of these fields, just hit enter to go to the next.***
 - Fist, you'll have to input the gray (wrong) letters from your first guess as a comma separated list. For example: `l,e,r,t`.
 - Hit enter to go to the next one.
 - Put in the correct letters that are in the wrong position (yellow letters). This time, include their position from 1-5 in this format: `p1,l2,a3,n4,t5`.
 - Same thing, just hit enter ~
 - Lastly, plug in the correct letters that are also in their correct positions. Follow the same format as the previous step: `p1,l2,a3,n4,t5`. Hit enter!
 
-The program will the give you a *list of candidate words*, roughly ranked by how frequently used the word is. It also provides a *suggested word* for your next guess. However, you can just pick anything you want, really. The best way to get the most information out of the second guess is to chose a five-letter word that has more vowels and does not contain any duplicate letters!
+The program will the give you a *list of candidate words*, roughly ranked by how frequently used the word is. It also provides a *suggested word* for your next guess. However, you can just pick anything you want, really.
 
-The program will also ask you whether you want to further narrow the range down:
+The program will also ask whether you want to further narrow the range down:
 
 ```Need to narrow it down further? (y/N) ```
 
@@ -31,7 +31,7 @@ Simply type `y` or `yes` to repeat the whole process again! You only need to inp
 
 If you got the correct word, type `n`, `no` or simply just hit enter to stop and close the program.
 
-***Note:****The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credit](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
+***Note:****The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credits](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
 
 ## Example game
 Let use the Wordle Archive game #221 [here](https://www.devangthakkar.com/wordle_archive/?221) as an example!
@@ -71,7 +71,7 @@ Need to narrow it down further? (y/N) y
 
 You can see the program provides you a huge list of possible words, as well as a suggestion. You can just use the suggested word, or just pick something else.
 
-*Notice there are some words that contain special characters! Those are just happen to be "words" in the dictionary and I left them their just in case anyone need it. You can always exclude them when inputting the gray (wrong) letters the first time:*
+*Notice there are some words that contain special characters! Those are just happen to be "words" in the dictionary and I left them there just in case anyone need it. You can always exclude them when inputting the gray (wrong) letters the first time:*
 ```
 What are the wrong letters? (Input as a,b,c,d,...) ',-,.
 ```
