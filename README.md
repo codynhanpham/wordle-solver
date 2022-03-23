@@ -1,15 +1,15 @@
 # Wordle-Solver
-An simple app that helps solving Wordle problems
+An simple app that helps solving Wordle problems ***(with Hard Mode ON)***
 
 ## How to Use
 *Currently the app requires a NodeJS environment, just because I wrote and tested it in NodeJS and didn't have time to make any nice looking GUI. So CLI it is! I'll try to make a browser interface later. For easy access, I also bundled some standalone executable files for Windows, macOS, and Linux, in case you don't what to bother with installing NodeJS and all that jazz.*
 
-### Run a standalone executable file from the latest release
+### *Option 1:* Run a standalone executable file from the latest release
 The easy and straight forward way to get the code up and running on your device is go to the [releases page](https://github.com/codynhanpham/wordle-solver/releases), find the latest release, and download the appropriate executable file for your operating system.
 
 There is a small chance that you will receive a warning from Windows when try to open the `wordle-solver-cli-win.exe`. That's totally fine and you can just click on Run Anyway to start the program. Windows requires any `.exe` file to have a digital code certificate to be considered "safe," however, this is a project I make for fun and the certificate cost $150+ per year, so no, I won't do it.
 
-### Run the source code directly in a NodeJS environment
+### *Option 2:* Run the source code directly in a NodeJS environment
 The intended way for the app to run is with NodeJS.
 
 - You will need to have NodeJS installed on your device. Just go to [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and download NodeJS for your OS if you haven't already.
@@ -21,7 +21,7 @@ Alternatively, you can also double-click either the `run.bat` file to start the 
 
 If you have Git Bash installed on your device, double-click the `run.sh` file to run the script with the Git Bash terminal.
 
-### Run on a webpage with a nice looking, interactive, and user friendly UI, which can be easily accessed from any device without any expensive certificate on either end.
+### *Option 3:* Run on a webpage with a nice looking, interactive, and user friendly UI, which can be easily accessed from any device without any expensive certificate on either end.
 *Trust me, coming soon™.*
 
 ---
@@ -30,7 +30,7 @@ If you have Git Bash installed on your device, double-click the `run.sh` file to
 
 ## Syntax
 ***If there is nothing to input for any of these fields, just hit enter to go to the next.***
-- Fist, you'll have to input the gray (wrong) letters from your first guess as a comma separated list. For example: `l,e,r,t`.
+- First, you'll have to input the gray (wrong) letters from your first guess as a comma separated list. For example: `l,e,r,t`.
 - Hit enter to go to the next one.
 - Put in the correct letters that are in the wrong position (yellow letters). This time, include their position from 1-5 in this format: `p1,l2,a3,n4,t5`.
 - Same thing, just hit enter ~
