@@ -49,7 +49,9 @@ If you got the correct word, type `n`, `no` or simply just hit enter to stop and
 ***Note:*** *The dictionary used for this app includes a lot more words than that Wordle's word bank (see [Footnote and Credits](https://github.com/codynhanpham/wordle-solver#footnote-and-credits)). As a result, some words in the result list, even the suggested word, may not be valid in Wordle. If this is the case, just choose another word!*
 
 ## Example Game
-Let use the Wordle Archive game #221 [here](https://www.devangthakkar.com/wordle_archive/?221) as an example!
+Let use the Wordle Archive game #221 [here](https://mywordle.strivemath.com/?word=svrfv) as an example!
+
+*Edit: The Wordle Archive site got a copyright notice and shut down recently, so the URL above links to mywordle.me, a "custom" Wordle game instead*
 
 My starter word is `ALERT`, then I just have to plug the output of the game into the app like so:
 ```
